@@ -1,0 +1,373 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "FinalShooting/1.0.0": {
+        "dependencies": {
+          "NAudio": "3.0.1",
+          "Vortice.Direct2D1": "3.8.3",
+          "Vortice.WinForms": "3.8.3",
+          "Vortice.XAudio2": "3.8.3",
+          "Vortice.XInput": "3.8.3"
+        },
+        "runtime": {
+          "FinalShooting.dll": {}
+        }
+      },
+      "NAudio/3.0.1": {
+        "dependencies": {
+          "NAudio.Asio": "3.0.1",
+          "NAudio.Core": "3.0.1",
+          "NAudio.Dmo": "3.0.1",
+          "NAudio.Midi": "3.0.1",
+          "NAudio.Wasapi": "3.0.1",
+          "NAudio.WinForms": "3.0.1",
+          "NAudio.WinMM": "3.0.1"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "NAudio.Asio/3.0.1": {
+        "dependencies": {
+          "NAudio.Core": "3.0.1"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.Asio.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "NAudio.Core/3.0.1": {
+        "dependencies": {
+          "System.Numerics.Tensors": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.Core.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "NAudio.Dmo/3.0.1": {
+        "dependencies": {
+          "NAudio.Core": "3.0.1"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.Dmo.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "NAudio.Midi/3.0.1": {
+        "dependencies": {
+          "NAudio.Core": "3.0.1"
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.Midi.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/3.0.1": {
+        "dependencies": {
+          "NAudio.Core": "3.0.1"
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.Wasapi.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "NAudio.WinForms/3.0.1": {
+        "dependencies": {
+          "NAudio.WinMM": "3.0.1"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.WinForms.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "NAudio.WinMM/3.0.1": {
+        "dependencies": {
+          "NAudio.Core": "3.0.1",
+          "NAudio.Midi": "3.0.1"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.WinMM.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "SharpGen.Runtime/2.4.2-beta": {
+        "runtime": {
+          "lib/net9.0/SharpGen.Runtime.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
+          }
+        }
+      },
+      "SharpGen.Runtime.COM/2.4.2-beta": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta"
+        },
+        "runtime": {
+          "lib/net9.0/SharpGen.Runtime.COM.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
+          }
+        }
+      },
+      "System.Numerics.Tensors/9.0.0": {
+        "runtime": {
+          "lib/net9.0/System.Numerics.Tensors.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Vortice.Direct2D1/3.8.3": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DXGI": "3.8.3"
+        },
+        "runtime": {
+          "lib/net9.0/Vortice.Direct2D1.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      },
+      "Vortice.Direct3D11/3.8.3": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DXGI": "3.8.3"
+        },
+        "runtime": {
+          "lib/net9.0/Vortice.Direct3D11.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      },
+      "Vortice.DirectX/3.8.3": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "SharpGen.Runtime.COM": "2.4.2-beta",
+          "Vortice.Mathematics": "2.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/Vortice.DirectX.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      },
+      "Vortice.DXGI/3.8.3": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        },
+        "runtime": {
+          "lib/net9.0/Vortice.DXGI.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      },
+      "Vortice.Mathematics/2.1.0": {
+        "runtime": {
+          "lib/net9.0/Vortice.Mathematics.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Vortice.WinForms/3.8.3": {
+        "dependencies": {
+          "Vortice.Direct3D11": "3.8.3"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/Vortice.WinForms.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      },
+      "Vortice.XAudio2/3.8.3": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        },
+        "runtime": {
+          "lib/net9.0/Vortice.XAudio2.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      },
+      "Vortice.XInput/3.8.3": {
+        "runtime": {
+          "lib/net9.0/Vortice.XInput.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinalShooting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-viewQ/yBZKOckMabTWnO+xb7ACw7k9BgjDqwYxOHRyFGQX7tEu67Vcn4rbcPWErp+DkkYQye6pKmdrB1xQNJGw==",
+      "path": "naudio/3.0.1",
+      "hashPath": "naudio.3.0.1.nupkg.sha512"
+    },
+    "NAudio.Asio/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ccqs+wtIgkrsw4KMdIpW+ZZDLd5Br/RXDNvTqzrLgjDdTnp0w7RQSq407H5uR3ThPuMJrzQM+A9nHL2esnzVFg==",
+      "path": "naudio.asio/3.0.1",
+      "hashPath": "naudio.asio.3.0.1.nupkg.sha512"
+    },
+    "NAudio.Core/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3fJ6UnkoiNBeeczKd9OozvcE85FvtyYCykmfzEbFW0uB0uT2+keKdconUGkz9qYlhaq1RJDTFptXOooQBYLijA==",
+      "path": "naudio.core/3.0.1",
+      "hashPath": "naudio.core.3.0.1.nupkg.sha512"
+    },
+    "NAudio.Dmo/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YWX+07lP0bObT4IOknjhK66QInHZ8TuEyIFIXv4pPAOnfiRRzL/SN/Gj6qKLGmizicr+wKZEbHiw5VMnVn/OfA==",
+      "path": "naudio.dmo/3.0.1",
+      "hashPath": "naudio.dmo.3.0.1.nupkg.sha512"
+    },
+    "NAudio.Midi/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/YiJWtG6EAIt//BYgd6SMudDT/A4cPgX8qpTbV9sxfJenSli8ujDEkPNF/Fa73YCeimK2bA0K3BmsgQ4olN+Nw==",
+      "path": "naudio.midi/3.0.1",
+      "hashPath": "naudio.midi.3.0.1.nupkg.sha512"
+    },
+    "NAudio.Wasapi/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1j8+HaeAJXFaDaIeVpnaahwAa3ZvMog2bswgmY1JSDysAbeehRx+PIeC0AbNyXZr5gvhu9PfOPD7xwuAEKJcbw==",
+      "path": "naudio.wasapi/3.0.1",
+      "hashPath": "naudio.wasapi.3.0.1.nupkg.sha512"
+    },
+    "NAudio.WinForms/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2CFII/mxJCJX/xurB4rx/fAcEbwhr0pH/WWxiYvHZJiOi+9qYxJWmabP+qG220aALP2vhj+fNddceZ7L/uO+eA==",
+      "path": "naudio.winforms/3.0.1",
+      "hashPath": "naudio.winforms.3.0.1.nupkg.sha512"
+    },
+    "NAudio.WinMM/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qeedyr0TtKWjEirwVG2ZkL1ecYVUfyh+s0YLsau6XC2FqyqT42LfR96kVEuDdv6U9LUp+aNGDiHO5MK/td0BAA==",
+      "path": "naudio.winmm/3.0.1",
+      "hashPath": "naudio.winmm.3.0.1.nupkg.sha512"
+    },
+    "SharpGen.Runtime/2.4.2-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-niTtWAUov1F7wZGAlVeEvW+Tnqvg5yTmhI7rxmYu2Utoyu2TbC9tWWpUpMs0PQg5lu5svoYpCAztNjxCqMFP/w==",
+      "path": "sharpgen.runtime/2.4.2-beta",
+      "hashPath": "sharpgen.runtime.2.4.2-beta.nupkg.sha512"
+    },
+    "SharpGen.Runtime.COM/2.4.2-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9lxDFMiepqo3lJQzMSjECCIONeCc2f3Drokgj6HtrTLZcJSftNgcLbD6/iXYj2iphkwgrZb1oLsDOZxoFZkawQ==",
+      "path": "sharpgen.runtime.com/2.4.2-beta",
+      "hashPath": "sharpgen.runtime.com.2.4.2-beta.nupkg.sha512"
+    },
+    "System.Numerics.Tensors/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hyJB4UlpAi19Xr9AXzu2NuagKC4lPfHObNMEAA0HmqFz2rX7wKgzeYzO/jM/eBHDhnUGFFEjk5cOoJaxqg5J4A==",
+      "path": "system.numerics.tensors/9.0.0",
+      "hashPath": "system.numerics.tensors.9.0.0.nupkg.sha512"
+    },
+    "Vortice.Direct2D1/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SDHEmNUT3A4P8yj+g7q3AnRZ9fvqOOe/EoWjsgkHlQ3C9Tkc51rTeZXC9bQPySli+/lFTui8vMs9tpWZqf+AwQ==",
+      "path": "vortice.direct2d1/3.8.3",
+      "hashPath": "vortice.direct2d1.3.8.3.nupkg.sha512"
+    },
+    "Vortice.Direct3D11/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JgFUswu2mgrSwcd0KRF2AnfeE5VbMEgcicmxPD1g2yXyomPIHbnX3wldBNHPOzzD0URC1WJ/pO1ymfi3imZwvg==",
+      "path": "vortice.direct3d11/3.8.3",
+      "hashPath": "vortice.direct3d11.3.8.3.nupkg.sha512"
+    },
+    "Vortice.DirectX/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nKwSavv0w5rDF7prSefqAVPDcTyqrfZxKFMVfttiXPfm62VdA/1d+b3PhCZpW4xO7jXczXDwjQdWgD1zGsvM8w==",
+      "path": "vortice.directx/3.8.3",
+      "hashPath": "vortice.directx.3.8.3.nupkg.sha512"
+    },
+    "Vortice.DXGI/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MbAUnTeQ6WD99ctAdrj5CQO2I7oaax0Kt2eVdWSUj0bYP9Ed0726+s7dIHe4+tqhpmINW/dcPt0mNtc72o+E0w==",
+      "path": "vortice.dxgi/3.8.3",
+      "hashPath": "vortice.dxgi.3.8.3.nupkg.sha512"
+    },
+    "Vortice.Mathematics/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KK+SjNSuKdP+zbavekubi+vaeb1Jo4k87ZF6CMkVWjr6RjJwc8peVtmgzXXDIMy4ZC3ZISyk3llY3q65ISOkBQ==",
+      "path": "vortice.mathematics/2.1.0",
+      "hashPath": "vortice.mathematics.2.1.0.nupkg.sha512"
+    },
+    "Vortice.WinForms/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P3AFcvi/k0iAi18Q6DHKAoDSyV/AkA158w064R1M2AhPQmPdIV3ZcLP7B/43jX9YMb8N2qSRlRyIY+4pD7UBLQ==",
+      "path": "vortice.winforms/3.8.3",
+      "hashPath": "vortice.winforms.3.8.3.nupkg.sha512"
+    },
+    "Vortice.XAudio2/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1XSd7ZkMe8KIS36HYq1rdsru2n9PyaPwNjnREH8pNnlVOSaeLpSPMCAv4hX5P8VqgfpvKhPhCiM5kQ1OrKqxpg==",
+      "path": "vortice.xaudio2/3.8.3",
+      "hashPath": "vortice.xaudio2.3.8.3.nupkg.sha512"
+    },
+    "Vortice.XInput/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ViuQjqlwaOvqPhmbFqnXDf4ItM7jvPFLLqtmtCP37aWwvyxQa7xuYeWQs2Oi5IEfUxfb6JZj5IRwGjxERRIoaA==",
+      "path": "vortice.xinput/3.8.3",
+      "hashPath": "vortice.xinput.3.8.3.nupkg.sha512"
+    }
+  }
+}
