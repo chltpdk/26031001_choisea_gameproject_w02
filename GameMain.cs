@@ -3,6 +3,8 @@
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 using Vortice.Mathematics;
+using System.Drawing;
+using System.Windows.Forms;
 
 class GameMain : G2AppBase
 {
@@ -52,10 +54,35 @@ class GameMain : G2AppBase
 			blue: (float)(Math.Sin(elapsed + Math.PI) * 0.5 + 0.5),
 		alpha: 1.0f);
 
-		//---------------------------------------
-		// 게임 관련 객체를 갱신합니다.
-		//---------------------------------------
-	}
+        //---------------------------------------
+        // 게임 관련 객체를 갱신합니다.
+        //---------------------------------------
+
+        if (_state == GameState.Start)
+        {
+            // 마우스 왼쪽 버튼을 누른 순간
+            if (Input.IsButtonDown(MouseButtons.Left))
+            {
+                var mouse = Input.MousePosition;
+                var startButton = new RectangleF(324, 340, 312, 130);
+                var exitButton = new RectangleF(324, 489, 312, 130);
+
+                if (startButton.Contains(mouse))
+                {
+                    _state = GameState.Playing;
+                }
+                else if (exitButton.Contains(mouse))
+                {
+                    Close();
+                    return;
+                }
+            }
+        }
+        else if (_state == GameState.Playing)
+        {
+            // 나중에 여기에 뱀 이동과 충돌 처리 추가
+        }
+    }
 
 	protected override void Render()
 	{
