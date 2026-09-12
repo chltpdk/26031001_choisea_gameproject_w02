@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
-    "net9.0-windows": {
+    "net9.0-windows7.0": {
       "glc2dcsharp/0.1.0.7": {
         "type": "package",
         "build": {
@@ -866,7 +866,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0-windows": [
+    "net9.0-windows7.0": [
       "NAudio >= 3.0.1",
       "Vortice.Direct2D1 >= 3.8.3",
       "Vortice.WinForms >= 3.8.3",
@@ -904,8 +904,7 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0-windows": {
-          "framework": "net9.0-windows7.0",
+        "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {}
         }
@@ -920,11 +919,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net9.0-windows": {
-        "framework": "net9.0-windows7.0",
+      "net9.0-windows7.0": {
         "targetAlias": "net9.0-windows",
         "dependencies": {
           "NAudio": {
@@ -971,7 +969,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

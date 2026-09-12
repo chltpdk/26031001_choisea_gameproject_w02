@@ -12,12 +12,14 @@
           "Vortice.Direct2D1": "3.8.3",
           "Vortice.WinForms": "3.8.3",
           "Vortice.XAudio2": "3.8.3",
-          "Vortice.XInput": "3.8.3"
+          "Vortice.XInput": "3.8.3",
+          "glc2dcsharp": "0.1.0.7"
         },
         "runtime": {
           "FinalShooting.dll": {}
         }
       },
+      "glc2dcsharp/0.1.0.7": {},
       "NAudio/3.0.1": {
         "dependencies": {
           "NAudio.Asio": "3.0.1",
@@ -114,6 +116,9 @@
         }
       },
       "SharpGen.Runtime/2.4.2-beta": {
+        "dependencies": {
+          "System.Text.Json": "9.0.1"
+        },
         "runtime": {
           "lib/net9.0/SharpGen.Runtime.dll": {
             "assemblyVersion": "2.4.2.0",
@@ -123,7 +128,8 @@
       },
       "SharpGen.Runtime.COM/2.4.2-beta": {
         "dependencies": {
-          "SharpGen.Runtime": "2.4.2-beta"
+          "SharpGen.Runtime": "2.4.2-beta",
+          "System.Text.Json": "9.0.1"
         },
         "runtime": {
           "lib/net9.0/SharpGen.Runtime.COM.dll": {
@@ -140,6 +146,7 @@
           }
         }
       },
+      "System.Text.Json/9.0.1": {},
       "Vortice.Direct2D1/3.8.3": {
         "dependencies": {
           "SharpGen.Runtime": "2.4.2-beta",
@@ -236,6 +243,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "glc2dcsharp/0.1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XSv0zpFz3Ebp4qf4HmFDHtVyKiVFfDYUueQJBEwzcxG1mdGOZY1mlXdctk462XXIzic/CbvK35Iv+wYEWsotDQ==",
+      "path": "glc2dcsharp/0.1.0.7",
+      "hashPath": "glc2dcsharp.0.1.0.7.nupkg.sha512"
+    },
     "NAudio/3.0.1": {
       "type": "package",
       "serviceable": true,
@@ -312,6 +326,13 @@
       "sha512": "sha512-hyJB4UlpAi19Xr9AXzu2NuagKC4lPfHObNMEAA0HmqFz2rX7wKgzeYzO/jM/eBHDhnUGFFEjk5cOoJaxqg5J4A==",
       "path": "system.numerics.tensors/9.0.0",
       "hashPath": "system.numerics.tensors.9.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eqWHDZqYPv1PvuvoIIx5pF74plL3iEOZOl/0kQP+Y0TEbtgNnM2W6k8h8EPYs+LTJZsXuWa92n5W5sHTWvE3VA==",
+      "path": "system.text.json/9.0.1",
+      "hashPath": "system.text.json.9.0.1.nupkg.sha512"
     },
     "Vortice.Direct2D1/3.8.3": {
       "type": "package",

@@ -15,8 +15,8 @@ class GameMain : G2AppBase
 	private G2Texture _hg = null;
     private G2Texture _Start= null;
     private G2Texture _Snakemein = null;
-
     private G2Texture _Gameend = null;
+    private G2Texture _Pool = null;
 
     private enum GameState
     {
@@ -39,6 +39,7 @@ class GameMain : G2AppBase
         _Start = new G2Texture(@"C:\Users\Windows11\26031001_choisea_gameproject_w02\bin\Debug\net9.0-windows\resource\tex_play\ui_Start.png");
         _Snakemein = new G2Texture(@"C:\Users\Windows11\26031001_choisea_gameproject_w02\bin\Debug\net9.0-windows\resource\tex_play\ui_Snake.png");
         _Gameend = new G2Texture(@"C:\Users\Windows11\26031001_choisea_gameproject_w02\bin\Debug\net9.0-windows\resource\tex_play\ui_gameend.png");
+        _Pool = new G2Texture(@"C:\Users\Windows11\26031001_choisea_gameproject_w02\bin\Debug\net9.0-windows\resource\tex_play\ui_pool.png");
     }
     
 
@@ -118,6 +119,36 @@ class GameMain : G2AppBase
 
                     new Vortice.RawRectF(200, 40, 760, 600),
                     new Vortice.RawRectF(0, 0, 1024, 1024));
+
+                // 왼쪽 바깥 풀
+                _Pool.Draw(
+                    new Vortice.RawRectF(-10, 495, 250, 625),
+                    new Vortice.RawRectF(0, 0, 1774, 887));
+
+                // 오른쪽 바깥 풀
+                _Pool.Draw(
+                    new Vortice.RawRectF(710, 495, 970, 625),
+                    new Vortice.RawRectF(0, 0, 1774, 887));
+
+                // 왼쪽 안쪽 작은 풀
+                _Pool.Draw(
+                    new Vortice.RawRectF(170, 525, 370, 625),
+                    new Vortice.RawRectF(0, 0, 1774, 887));
+
+                // 오른쪽 안쪽 작은 풀
+                _Pool.Draw(
+                    new Vortice.RawRectF(590, 525, 790, 625),
+                    new Vortice.RawRectF(0, 0, 1774, 887));
+
+                // 왼쪽 중심 큰 풀
+                _Pool.Draw(
+                    new Vortice.RawRectF(40, 475, 360, 635),
+                    new Vortice.RawRectF(0, 0, 1774, 887));
+
+                // 오른쪽 중심 큰 풀
+                _Pool.Draw(
+                    new Vortice.RawRectF(600, 475, 920, 635),
+                    new Vortice.RawRectF(0, 0, 1774, 887));
                 break;
 
 
@@ -148,5 +179,6 @@ class GameMain : G2AppBase
         _Start.Dispose();
         _Snakemein.Dispose();
         _Gameend.Dispose();
+        _Pool.Dispose();
     }
 }  
