@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5C5C1EF-9D6D-4F11-B4AC-98B192C47444}|FinalShooting.csproj|c:\\users\\windows11\\26031001_choisea_gameproject_w02\\glc2d\\g2audiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C5C1EF-9D6D-4F11-B4AC-98B192C47444}|FinalShooting.csproj|solutionrelative:glc2d\\g2audiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5C5C1EF-9D6D-4F11-B4AC-98B192C47444}|FinalShooting.csproj|c:\\users\\windows11\\26031001_choisea_gameproject_w02\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5C5C1EF-9D6D-4F11-B4AC-98B192C47444}|FinalShooting.csproj|solutionrelative:gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C5C1EF-9D6D-4F11-B4AC-98B192C47444}|FinalShooting.csproj|c:\\users\\windows11\\26031001_choisea_gameproject_w02\\glc2d\\g2audiosound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C5C1EF-9D6D-4F11-B4AC-98B192C47444}|FinalShooting.csproj|solutionrelative:glc2d\\g2audiosound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C5C1EF-9D6D-4F11-B4AC-98B192C47444}|FinalShooting.csproj|c:\\users\\windows11\\26031001_choisea_gameproject_w02\\glc2d\\g2audiomp3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C5C1EF-9D6D-4F11-B4AC-98B192C47444}|FinalShooting.csproj|solutionrelative:glc2d\\g2audiomp3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "G2AudioSound.cs",
+              "DocumentMoniker": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\glc2d\\G2AudioSound.cs",
+              "RelativeDocumentMoniker": "glc2d\\G2AudioSound.cs",
+              "ToolTip": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\glc2d\\G2AudioSound.cs",
+              "RelativeToolTip": "glc2d\\G2AudioSound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T14:31:10.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "G2AudioMp3.cs",
+              "DocumentMoniker": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\glc2d\\G2AudioMp3.cs",
+              "RelativeDocumentMoniker": "glc2d\\G2AudioMp3.cs",
+              "ToolTip": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\glc2d\\G2AudioMp3.cs",
+              "RelativeToolTip": "glc2d\\G2AudioMp3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T14:30:46.215Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "G2AudioContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\glc2d\\G2AudioContext.cs",
+              "RelativeDocumentMoniker": "glc2d\\G2AudioContext.cs",
+              "ToolTip": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\glc2d\\G2AudioContext.cs",
+              "RelativeToolTip": "glc2d\\G2AudioContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T14:30:31.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameMain.cs",
               "DocumentMoniker": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\GameMain.cs",
               "RelativeDocumentMoniker": "GameMain.cs",
-              "ToolTip": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\GameMain.cs*",
-              "RelativeToolTip": "GameMain.cs*",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAqwGwAAAA6AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\GameMain.cs",
+              "RelativeToolTip": "GameMain.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAUwCwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-12T16:29:54.965Z",
               "EditorCaption": ""
