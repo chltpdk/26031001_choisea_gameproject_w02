@@ -34,7 +34,7 @@ class GameMain : G2AppBase
     private Point direction = new Point(1, 0);
     private Point food;
 
-    // 연두색 격자
+
     private const int GridColumns = 17;
     private const int GridRows = 15;
 
@@ -71,7 +71,7 @@ class GameMain : G2AppBase
             int right = -1;
             int bottom = -1;
 
-            // PNG에서 실제 그림이 있는 범위 찾기
+
             for (int y = 0; y < bitmap.Height; y++)
             {
                 for (int x = 0; x < bitmap.Width; x++)
@@ -271,20 +271,6 @@ class GameMain : G2AppBase
         _Pool = new G2Texture(
             Path.Combine(imageFolder, "ui_pool.png"));
 
-        // 머리: 새 PNG는 모두 64 × 64
-        _headUp = new G2Texture(
-        Path.Combine(uiFolder, "ui_head_up_v3.png"));
-
-        _headDown = new G2Texture(
-            Path.Combine(uiFolder, "ui_head_b_v3.png"));
-
-        _headLeft = new G2Texture(
-            Path.Combine(uiFolder, "ui_head_L_v3.png"));
-
-        _headRight = new G2Texture(
-            Path.Combine(uiFolder, "ui_head_R_v3.png"));
-
-        // 몸통, 꼬리, 모서리
         _headUp = new G2Texture(
             Path.Combine(uiFolder, "ui_head_up_v3.png"));
 
@@ -319,7 +305,7 @@ class GameMain : G2AppBase
             );
         }
 
-        // 사과는 기존 이미지 사용
+
         _apple = new G2Texture(
             Path.Combine(uiFolder, "ui_apple.png"));
 
@@ -344,7 +330,7 @@ class GameMain : G2AppBase
         bgm.Play(true);
     }
 
-    // 격자 한 칸의 화면 위치
+
     private Vortice.RawRectF GetCellRect(Point cell)
     {
         float left = GridLeft + cell.X * CellWidth;
@@ -360,7 +346,7 @@ class GameMain : G2AppBase
 
     private void SpawnFood()
     {
-        // 빈칸에서만 사과 생성
+
         var emptyCells = new List<Point>();
 
         for (int y = 0; y < GridRows; y++)
@@ -439,7 +425,6 @@ class GameMain : G2AppBase
                     RefreshScoreTextures();
 
                     snake.Clear();
-                    snake.Clear();
                     snake.Add(new Point(10, 7));
                     snake.Add(new Point(9, 7));
                     snake.Add(new Point(8, 7));
@@ -462,7 +447,7 @@ class GameMain : G2AppBase
         }
         else if (_state == GameState.Playing)
         {
-            // 실제로 움직인 방향을 기준으로 역방향 입력 방지
+
             Point currentDirection = snake.Count > 1
                 ? new Point(
                     snake[0].X - snake[1].X,
@@ -501,7 +486,7 @@ class GameMain : G2AppBase
                     head.Y + direction.Y
                 );
 
-                // 격자 바깥으로 나가면 종료
+
                 if (newHead.X < 0 ||
                     newHead.X >= GridColumns ||
                     newHead.Y < 0 ||
@@ -513,7 +498,7 @@ class GameMain : G2AppBase
 
                 bool eating = newHead == food;
 
-                // 먹지 않는 턴에는 현재 꼬리 칸이 비워짐
+
                 int collisionCount = eating
                     ? snake.Count
                     : snake.Count - 1;
@@ -554,7 +539,7 @@ class GameMain : G2AppBase
 
     private void DrawSnake()
     {
-        // 모든 PNG가 같은 64×64 캔버스와 연결 위치를 사용
+
         var source = new Vortice.RawRectF(0, 0, 64, 64);
 
         for (int i = 0; i < snake.Count; i++)
@@ -631,7 +616,7 @@ class GameMain : G2AppBase
                 texture = snakeTextures[key];
             }
 
-            // 부위별 확대·축소 없이 같은 격자 크기로 표시
+
             texture.Draw(GetCellRect(p), source);
         }
     }
@@ -668,7 +653,7 @@ class GameMain : G2AppBase
                     new Vortice.RawRectF(0, 0, 1024, 1024)
                 );
 
-                // 풀
+
                 _Pool.Draw(
                     new Vortice.RawRectF(-10, 495, 250, 625),
                     new Vortice.RawRectF(0, 0, 1774, 887)
@@ -699,7 +684,7 @@ class GameMain : G2AppBase
                     new Vortice.RawRectF(0, 0, 1774, 887)
                 );
 
-                // 사과: 기존 원본의 투명 여백 제외
+
                 _apple.Draw(
                     GetCellRect(food),
                     new Vortice.RawRectF(156, 102, 375, 350)
@@ -715,19 +700,19 @@ class GameMain : G2AppBase
 
             case GameState.Clear:
             case GameState.GameOver:
-                // 게임 결과 제목
+
                 _resultTitleTexture.Draw(
                     new Vortice.RawRectF(280, 160, 680, 260),
                     new Vortice.RawRectF(0, 0, 512, 128)
                 );
 
-                // 이번 게임 점수
+
                 _scoreTexture.Draw(
                     new Vortice.RawRectF(280, 280, 680, 380),
                     new Vortice.RawRectF(0, 0, 512, 128)
                 );
 
-                // 저장된 최고 점수
+
                 _bestScoreTexture.Draw(
                     new Vortice.RawRectF(280, 400, 680, 500),
                     new Vortice.RawRectF(0, 0, 512, 128)
@@ -772,11 +757,11 @@ class GameMain : G2AppBase
         }
         catch (IOException)
         {
-            // 사용 중인 임시 파일은 남겨 둠
+
         }
         catch (UnauthorizedAccessException)
         {
-            // 임시 파일 삭제 실패는 게임 종료에 영향을 주지 않음
+
         }
     }
 }

@@ -38,8 +38,7 @@
               "RelativeToolTip": "glc2d\\G2AudioSound.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T14:31:10.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T14:31:10.915Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "glc2d\\G2AudioMp3.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T14:30:46.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T14:30:46.215Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "glc2d\\G2AudioContext.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAUwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T14:30:31.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T14:30:31.918Z"
             },
             {
               "$type": "Document",
@@ -73,9 +70,9 @@
               "Title": "GameMain.cs",
               "DocumentMoniker": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\GameMain.cs",
               "RelativeDocumentMoniker": "GameMain.cs",
-              "ToolTip": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\GameMain.cs*",
-              "RelativeToolTip": "GameMain.cs*",
-              "ViewState": "AgIAAK8CAAAAAAAAAAAiwMoCAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Windows11\\26031001_choisea_gameproject_w02\\GameMain.cs",
+              "RelativeToolTip": "GameMain.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAUwFgBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-12T16:29:54.965Z",
               "EditorCaption": ""
